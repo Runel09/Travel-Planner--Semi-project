@@ -1,2 +1,2 @@
 # Travel-Planner--Semi-project
-planner site for solo traveler
+planner site for solo travelersdsdsdsdS
