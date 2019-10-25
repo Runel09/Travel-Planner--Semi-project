@@ -4,18 +4,24 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script type="text/javascript">
-window.onload=function() {
-  var h =document.getElementById('header');  
-}
+  window.onload=function() {
+    var h1=document.createElement("h1");
 
+    var text=document.createTextNode("Hello Dom");
+    console.log("--- h1 ---")
+    console.log(h1)
+    console.log("--- text ---")
+    console.log(text)
 
-console.log(h);
+    h1.appendChild(text);
+    console.log(h1);
+    document.body.appendChild(h1);
 
+  }
 </script>
+
 </head>
 <body>
-
-<h1 id="header">HEADER TEXT</h1>
-
+<h1>Fuck</h1>
 </body>
 </html>
